@@ -8,4 +8,4 @@
 
 #### 2、创建Actions
 
-#### 3、创建Actions的Screts
+#### 3、创建Actions的Secrets
