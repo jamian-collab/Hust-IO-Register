@@ -33,12 +33,24 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL
 ###### 之后复制到Actions的密钥中，这样就可以使用了。
 ![b867045dc288c5336ef1cf22819a870](https://user-images.githubusercontent.com/67460808/188876322-b1b04673-06a1-43ed-9d6d-7b7842362254.png)
 
+## 验证是否可以成功运行
+
+### 按下面的几张图操作，最后的Python运行结果为“登记成功🚗”则表示可以成功运行。
+
+![image](https://user-images.githubusercontent.com/67460808/188891594-dc8373c7-39f8-4244-b580-1e6e493143b4.png)
+
+![image](https://user-images.githubusercontent.com/67460808/188891699-7341f12c-4e27-422b-a3b9-53639e0cd89f.png)
+
+![image](https://user-images.githubusercontent.com/67460808/188891774-c435729c-be04-4f1b-8ee1-0020627abe85.png)
+
+![image](https://user-images.githubusercontent.com/67460808/188891822-edf306f7-0e71-46df-b630-7297efbe1345.png)
+
 
 ### 关于修改执行的时间
 
 #### 修改执行的时间可以在workflow文件夹中修改yml文件。
 
-![1662553162230](https://user-images.githubusercontent.com/67460808/188876995-a861e9cb-e6dd-4690-b2ba-8c0952195613.png)
+![image](https://user-images.githubusercontent.com/67460808/188891920-e77e77e6-1990-4dd9-bb9d-7030c36f5981.png)
 
 #### 注意的是GitHubAction使用的是UTC时间，比北京时间要迟上8个小时，譬如北京时间6点就是UTC的22点。
 
