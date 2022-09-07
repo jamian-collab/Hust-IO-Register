@@ -2,7 +2,7 @@ name: Run Hust Register On GitHub Action
 on:
   push:
   schedule:
-  # 定时任务，在每天的6,7点定时自动健康打卡
+  # 定时任务，在每天的6,7点定时登记
     - cron: '0 22,23 * * *'
 jobs:
   HustRegister:
