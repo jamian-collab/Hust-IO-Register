@@ -37,7 +37,7 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL
 
 ### 按下面的几张图操作，最后的Python运行结果为“登记成功🚗”则表示可以成功运行。
 
-![image](https://user-images.githubusercontent.com/67460808/188891594-dc8373c7-39f8-4244-b580-1e6e493143b4.png)
+![image](https://user-images.githubusercontent.com/67460808/188892119-342506eb-9d83-455d-b29f-05d2dbedd17f.png)
 
 ![image](https://user-images.githubusercontent.com/67460808/188891699-7341f12c-4e27-422b-a3b9-53639e0cd89f.png)
 
