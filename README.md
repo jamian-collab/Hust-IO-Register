@@ -25,10 +25,11 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL
 ![9bb1959db7f10767b272e8cbdfdb4e6](https://user-images.githubusercontent.com/67460808/188875645-8fb3086e-a330-45de-9af3-e9b656b90f2a.png)
 
 ##### ③REGISTERURL：表示华中大出入登记的网址，每个人的网址是不同的，需要通过华科的企业微信获得
+![7dd6d6629960b957fddfd6f2984bae2](https://user-images.githubusercontent.com/67460808/188878674-4b40c4db-20f0-4b46-8798-4539106cde83.jpg)
 
 ###### 获得方式：打开企业微信中的出入登记界面，选择上方的三个点，然后可以看到复制链接的选项，这个链接就是每个人的网址。
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/67460808/188878568-0457813c-3199-4c17-8b11-c12bd67cedf5.png)
 
 ###### 之后复制到Actions的密钥中，这样就可以使用了。
 ![b867045dc288c5336ef1cf22819a870](https://user-images.githubusercontent.com/67460808/188876322-b1b04673-06a1-43ed-9d6d-7b7842362254.png)
