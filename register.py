@@ -110,6 +110,11 @@ while True:
 driver.execute_script(
     "document.getElementsByClassName('am-button am-button-primary')[0].click()")
 
+# 打印时间
+bookst = driver.execute_script(
+    "return document.getElementsByName('bookingStartTime')[0].value")
+print(bookst)
+
 # 10.输入申请理由
 visitcase = driver.find_element(by=By.NAME, value='visitCase')
 visitcase.send_keys('.')
