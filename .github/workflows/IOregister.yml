@@ -1,8 +1,11 @@
 name: Run Hust Register On GitHub Action
 on:
-  workflow_dispatch:
+  push:
+  schedule:
+  # 定时任务，在每天的6,7点定时自动健康打卡
+    - cron: '0 22,23 * * *'
 jobs:
-  hustregister:
+  HustRegister:
     runs-on: ubuntu-latest
     steps:
       - name: Checking out repo
