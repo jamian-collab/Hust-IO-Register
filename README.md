@@ -28,7 +28,7 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL
 
 ###### 获得方式：打开企业微信中的出入登记界面，选择上方的三个点，然后可以看到复制链接的选项，这个链接就是每个人的网址。
 
-![image](https://user-images.githubusercontent.com/67460808/188876109-7fc91f31-870a-4139-b966-d382d5a66bfe.png)
+![Uploading image.png…]()
 
 ###### 之后复制到Actions的密钥中，这样就可以使用了。
 ![b867045dc288c5336ef1cf22819a870](https://user-images.githubusercontent.com/67460808/188876322-b1b04673-06a1-43ed-9d6d-7b7842362254.png)
