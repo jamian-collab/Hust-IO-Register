@@ -3,7 +3,7 @@
 ## 华中科技大学出入校门每日自动登记
 
 
-### 使用方法(按照图示中红色方框操作)
+### 一、使用方法(按照图示中红色方框操作)
 
 #### 1、Fork到自己的仓库中
 
@@ -33,7 +33,7 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL
 ###### 之后复制到Actions的密钥中，这样就可以使用了。
 ![b867045dc288c5336ef1cf22819a870](https://user-images.githubusercontent.com/67460808/188876322-b1b04673-06a1-43ed-9d6d-7b7842362254.png)
 
-## 验证是否可以成功运行
+## 二、验证是否可以成功运行
 
 ### 按下面的几张图操作，最后的Python运行结果为“登记成功🚗”则表示可以成功运行。
 
@@ -46,7 +46,7 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL
 ![image](https://user-images.githubusercontent.com/67460808/188891822-edf306f7-0e71-46df-b630-7297efbe1345.png)
 
 
-### 关于修改执行的时间
+### 三、关于修改执行的时间
 
 #### 修改执行的时间可以在workflow文件夹中修改yml文件。
 
