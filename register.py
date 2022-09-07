@@ -21,6 +21,7 @@ def PostPic(imgbytes):
 
 username = sys.argv[1]  # 用户名
 password = sys.argv[2]  # 密码
+registerurl = sys.argv[3]  # 登记网址
 
 display = Display(visible=0, size=(800, 800))
 display.start()
@@ -36,15 +37,6 @@ options = [
     # Define window size here
     "--window-size=1200,1200",
     "--ignore-certificate-errors"
-
-    # "--headless",
-    # "--disable-gpu",
-    # "--window-size=1920,1200",
-    # "--ignore-certificate-errors",
-    # "--disable-extensions",
-    # "--no-sandbox",
-    # "--disable-dev-shm-usage",
-    # '--remote-debugging-port=9222'
 ]
 
 for option in options:
@@ -54,7 +46,7 @@ for option in options:
 driver = webdriver.Chrome(options=chrome_options)
 
 # 2.通过浏览器向服务器发送URL请求
-driver.get('http://access.hust.edu.cn/IDKJ-P/P/studentHome?data=3F6EB1A2999B2626FAB2DA0D114E4B98F665234B3FB79E5E10F2616C97EBFB5A#/')
+driver.get(registerurl)
 
 while True:
 
@@ -110,25 +102,25 @@ while True:
 driver.execute_script(
     "document.getElementsByClassName('am-button am-button-primary')[0].click()")
 
-# 打印时间
+# 10.打印登记时间
 bookst = driver.execute_script(
     "return document.getElementsByName('bookingStartTime')[0].value")
 print(bookst)
 
-# 10.输入申请理由
+# 11.输入申请理由
 visitcase = driver.find_element(by=By.NAME, value='visitCase')
 visitcase.send_keys('.')
 
-# 11.点击提交
+# 12.点击提交
 driver.execute_script(
     "document.getElementsByClassName('submitbtn')[0].click()")
 
-# 12.睡眠1秒
+# 13.睡眠1秒
 time.sleep(1)
 
-# 13.关闭浏览器
+# 14.关闭浏览器
 driver.close()
 driver.quit()
 
-# 14.打印登记成功
+# 15.打印登记成功
 print('登记成功🚗')
