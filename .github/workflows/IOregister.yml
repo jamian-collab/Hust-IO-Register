@@ -1,6 +1,6 @@
 name: Run Hust Register On GitHub Action
 on:
-  push:
+  # push:
   schedule:
   # 定时任务，在每天的6点定时登记
     - cron: '0 22 * * *'
