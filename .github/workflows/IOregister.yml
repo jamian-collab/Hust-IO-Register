@@ -2,7 +2,7 @@ name: Run Hust Register On GitHub Action
 on:
   workflow_dispatch:
 jobs:
-  scrape:
+  hustregister:
     runs-on: ubuntu-latest
     steps:
       - name: Checking out repo
