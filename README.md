@@ -15,7 +15,7 @@
 ![9796882c15e6e1d4fff87a966877385](https://user-images.githubusercontent.com/67460808/188875129-237bdede-2b97-4975-9fcd-108fb03feb2e.png)
 
 #### 3、创建Actions的Secrets
-Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL
+Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL(密钥是专属于每个Github账号的，因此不必担心泄漏)
 ##### ①USERNAME：表示华中大统一门户的学号
 
 ![5d2ebfa6f5eb239a14bcd7e8b1a361e](https://user-images.githubusercontent.com/67460808/188875555-bb8310e5-db8c-4beb-83b9-4ee98c444c75.png)
