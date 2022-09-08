@@ -5,6 +5,7 @@ from pyvirtualdisplay import Display
 import ddddocr
 import time
 import sys
+import os
 
 
 def PostPic(imgbytes):
@@ -98,29 +99,39 @@ while True:
     if err == None:
         break
 
-# 9.点击同意
+# 9.删除验证码图片
+os.remove('codeimg.png')
+
+# 10.点击同意
 driver.execute_script(
     "document.getElementsByClassName('am-button am-button-primary')[0].click()")
 
-# 10.打印登记时间
+# 11.打印登记时间
 bookst = driver.execute_script(
     "return document.getElementsByName('bookingStartTime')[0].value")
 print(bookst)
 
-# 11.输入申请理由
+# 12.输入申请理由
 visitcase = driver.find_element(by=By.NAME, value='visitCase')
 visitcase.send_keys('.')
 
-# 12.点击提交
+# 13.点击提交
 driver.execute_script(
     "document.getElementsByClassName('submitbtn')[0].click()")
 
-# 13.睡眠1秒
+# 14.睡眠1秒
 time.sleep(1)
 
-# 14.关闭浏览器
+# 15.关闭浏览器
 driver.close()
 driver.quit()
 
-# 15.打印登记成功
+# 16.打印登记成功
 print('登记成功🚗')
+
+# 17.输出内容到GitHub_Action_Results.txt, 作为一个项目更新
+# GitHub Action是两个月如果项目不发生更改的话, 会被冻结
+
+with open('./GitHub_Action_Results.txt', 'w') as f:
+    f.write(
+        f"This was written with a GitHub action\nBooktime:{bookst}\nStatus:Success")
