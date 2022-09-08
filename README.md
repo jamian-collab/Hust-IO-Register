@@ -52,5 +52,5 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL(密钥
 
 ![image](https://user-images.githubusercontent.com/67460808/188891920-e77e77e6-1990-4dd9-bb9d-7030c36f5981.png)
 
-#### 注意的是GitHubAction使用的是UTC时间，比北京时间要迟上8个小时，譬如北京时间6点就是UTC的22点。
+#### 注意的是GitHub Action使用的是UTC时间，比北京时间要迟上8个小时，譬如北京时间6点就是UTC的22点。
 
