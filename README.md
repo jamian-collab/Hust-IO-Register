@@ -38,6 +38,8 @@ Actions的密钥有三个，分别是USERNAME，PASSWORD，和REGISTERURL(密钥
 
 ## 二、验证是否可以成功运行
 
+#### 在GitHub Actions的yml文件中定义了两种触发方式，分别是手动和定时，这里的手动触发我们用作测试使用。
+
 ### 按下面的几张图操作，最后的Python运行结果为“登记成功🚗”则表示可以成功运行。
 
 ![image](https://user-images.githubusercontent.com/67460808/188892119-342506eb-9d83-455d-b29f-05d2dbedd17f.png)
