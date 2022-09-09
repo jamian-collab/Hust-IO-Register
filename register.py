@@ -124,21 +124,23 @@ while True:
         # 14.睡眠1秒
         time.sleep(1)
 
-        # 15.关闭浏览器
-        driver.close()
-        driver.quit()
-
-        # 16.打印登记成功
+        # 15.打印登记成功
         print('登记成功🚗')
 
-        # 17.输出内容到GitHub_Action_Results.txt, 作为一个项目更新
+        # 16.输出内容到GitHub_Action_Results.txt, 作为一个项目更新
         # GitHub Action是两个月如果项目不发生更改的话, 会被冻结
 
         with open('./GitHub_Action_Results.txt', 'w') as f:
             f.write(
                 f"This was written with a GitHub action\nBooktime:{bookst}\nStatus:Success")
-        # 18.退出循环
+
+        # 17.退出循环
         break
 
     except:
         pass
+
+    finally:
+        # 18.关闭浏览器
+        driver.close()
+        driver.quit()
